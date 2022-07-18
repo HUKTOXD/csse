@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: #ffffff;
+    color: #000000;
+    /* font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif; */
+    font: normal 16px'Roboto', sans-serif;
+}
+.image {
+	width: 50%;
+	height: 50%;
+    border-radius: 10%;
+    box-shadow: 6px 7px 20px #3a3a3a;
+	/* margin-left: 300px; */
+}
+
+.container {
+	max-width: 75%;
+	margin: auto;
+}
+
+a {	
+	font-size: large;
+	font-weight: 600;
+	color: #353535;
+	text-decoration: none;
+}
+
+.you:hover {
+	background-color: rgb(190, 19, 19);
+	color: white;
+}
+
+.tel:hover {
+	background-color: rgb(3, 137, 247);
+	color: rgb(255, 255, 255);
+}
+
+.card {
+	font-weight: 600;
+	padding: 15px 20px;
+	margin-bottom: 15px;
+	border-radius: 20px;
+}
+
+.list {
+	padding: 0px 20px;
+}
+
+.bg-green {
+	background: rgb(183, 240, 188);
+}
+
+.second:hover {
+	color: #000000;
+}
+
+.bg-blue {
+	background:rgb(149, 203, 247);
+}
+
+.bg-yellow {
+	background: rgb(240, 217, 183);
+}
+
+body {
+	background: rgb(201, 201, 201);	
+}
+
+body p {
+	font-weight: 600;
+}
+
+.list li {
+	color: rgb(92, 92, 92);
+	margin-bottom: 5px;
+	border-bottom: 2px solid grey;
+	padding-bottom: 1px;
+}
+
+.table {
+	width: 100%;
+}
+
+.table td {
+	padding-bottom: 10px;
+}
+
+.table tr:nth-child(even) {
+	background-color:rgb(155, 196, 159) ;
+}
+
+.links li {
+	margin-bottom: 10px;
+	border-bottom: 2px solid rgb(99, 155, 201);
+	padding-bottom: 3px;
+}
+
+.inf h3 {
+	text-align: center;
+}
+
+.form label {
+	display: block;
+	font-size: 14px;
+	color: #252525;
+}
+
+.form input {
+	box-sizing: border-box;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid rgb(146, 146, 146);
+	outline: none;
+	font-family: inherit;
+	background-color: transparent;
+	padding: 15px 0 10px;
+}
+
+.form textarea {
+	box-sizing: border-box;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid rgb(146, 146, 146);
+	outline: none;
+	font-family: inherit;
+	background-color: transparent;
+	padding: 15px 0 10px;
+}
+
+.row {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.row > .form {
+	width: 50%;
+}
+
+.row > .form:first-child {
+	margin-right: 15px;
+}
+
+.info {
+	display: flex;
+}
+
+.infotext {
+	margin-left: 50px;
+}
+
+.btn {
+	font-family: inherit;
+	padding: 10px 15px;
+	border: none;
+	cursor: pointer;
+	background-color: #080808;
+	color: #ffffff;
+}
+
+.btn:hover {
+	opacity: 0.9;
+}
+
+@media (max-width 700px) {
+	.info {
+		display: block;
+		text-align: center;
+	}
+}
